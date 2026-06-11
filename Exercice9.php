@@ -38,7 +38,7 @@ $moyenne = $somme / 5;
     $maxnote = $etudiants[0];
 foreach ($etudiants as $student){
     if ($student['note']> $maxnote['note']){
-         $/home/toumany-camara/Bureau/Mes TP htmlmaxnote = $student;
+         $maxnote = $student;
 
     }
 }
